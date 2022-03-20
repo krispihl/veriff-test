@@ -34,7 +34,7 @@ export function fetchChecks() {
 /**
  * @param {Object[]} results - The list of check results
  * @param {string} results[].checkId - Check id
- * @param {string} results[].result - Result value (yes / no)
+ * @param {string} results[].value - Result value (yes / no)
  */
 export function submitCheckResults(results) {
   return new Promise((resolve, reject) =>

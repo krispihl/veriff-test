@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success renders Success view correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2>
+      Great success!
+    </h2>
+    <p>
+      Your data was submitted successfully.
+    </p>
+  </div>
+</div>
+`;

@@ -1,4 +1,4 @@
-.Button {
+.button {
   font-weight: 500;
   font-size: 14px;
   line-height: 40px;
@@ -8,22 +8,24 @@
   user-select: none;
   border: 1px solid transparent;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--primary-white);
 
   position: relative;
   height: 40px;
   padding: 0 16px;
   border-radius: 4px;
   cursor: pointer;
+
+  align-self: flex-end;
 }
 
-.Button:disabled {
-  background-color: #e6ebf4;
-  color: #bdc0cf;
+.button:disabled {
+  background-color: var(--cold-gray);
+  color: var(--warm-gray);
   cursor: not-allowed;
 }
 
-.Button:enabled:hover,
-.Button:enabled:focus {
+.button:enabled:hover,
+.button:enabled:focus {
   filter: brightness(110%);
 }

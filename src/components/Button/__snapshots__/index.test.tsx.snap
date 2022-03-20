@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders Button component correctly 1`] = `
+<div>
+  <button
+    class="button"
+  >
+    Test
+  </button>
+</div>
+`;
+
+exports[`Button renders disabled Button component correctly 1`] = `
+<div>
+  <button
+    class="button"
+    disabled=""
+  >
+    Test
+  </button>
+</div>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleButton renders ToggleButton component correctly 1`] = `
+<div>
+  <div>
+    <button
+      class="leftButton"
+    >
+      Yes
+    </button>
+    <button
+      class="rightButton"
+    >
+      No
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ToggleButton renders ToggleButton correctly when NO is active button 1`] = `
+<div>
+  <div>
+    <button
+      class="leftButton"
+    >
+      Yes
+    </button>
+    <button
+      class="rightButton activeButton"
+    >
+      No
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ToggleButton renders ToggleButton correctly when YES is active button 1`] = `
+<div>
+  <div>
+    <button
+      class="leftButton activeButton"
+    >
+      Yes
+    </button>
+    <button
+      class="rightButton"
+    >
+      No
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ToggleButton renders disabled ToggleButton correctly 1`] = `
+<div>
+  <div>
+    <button
+      class="leftButton disabled"
+    >
+      Yes
+    </button>
+    <button
+      class="rightButton disabled"
+    >
+      No
+    </button>
+  </div>
+</div>
+`;

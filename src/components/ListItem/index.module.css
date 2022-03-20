@@ -1,0 +1,27 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+    min-height: 80px;
+    box-sizing: border-box;
+}
+
+.item:hover:not(.item--active):not(.item--disabled) {
+    background-color: var(--cold-gray);
+}
+
+.item--active,
+.item--active:hover {
+    background-color: var(--highlight-color);
+}
+
+.item--disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.text {
+    margin: 0 0 10px 0;
+}

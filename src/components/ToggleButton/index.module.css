@@ -1,0 +1,35 @@
+.leftButton, .rightButton {
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    background-color: var(--primary-white);
+    color: var(--primary-color);
+    height: 36px;
+    width: 70px;
+    padding: 7px 16px;
+    border: 2px solid var(--primary-color);
+}
+
+.leftButton:not(.disabled):not(.activeButton):hover,
+.rightButton:not(.disabled):not(.activeButton):hover {
+    background-color: var(--highlight-color);
+}
+
+.leftButton:not(.disabled):hover,
+.rightButton:not(.disabled):hover {
+    cursor: pointer;
+}
+
+.leftButton {
+    border-radius: 6px 0 0 6px;
+    border-right: 1px solid var(--primary-color);
+}
+
+.rightButton {
+    border-radius: 0 6px 6px 0;
+    border-left: 1px solid var(--primary-color);
+}
+
+.activeButton {
+    color: var(--primary-white);
+    background-color: var(--primary-color);
+}

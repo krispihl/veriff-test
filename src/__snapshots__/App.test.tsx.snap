@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App correctly when checks are fetch successfully 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <div
+      class="wrapper"
+    >
+      <form>
+        <div
+          class="item"
+          data-testid="list-item"
+        >
+          <p
+            class="text"
+          >
+            Veriff supports presented document
+          </p>
+          <div>
+            <button
+              class="leftButton"
+            >
+              Yes
+            </button>
+            <button
+              class="rightButton"
+            >
+              No
+            </button>
+          </div>
+        </div>
+        <div
+          class="item item--disabled"
+          data-testid="list-item"
+        >
+          <p
+            class="text"
+          >
+            Face on the picture matches face on the document
+          </p>
+          <div>
+            <button
+              class="leftButton disabled"
+            >
+              Yes
+            </button>
+            <button
+              class="rightButton disabled"
+            >
+              No
+            </button>
+          </div>
+        </div>
+      </form>
+      <button
+        class="button"
+        disabled=""
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App renders App correctly when user makes a selection 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <div
+      class="wrapper"
+    >
+      <form>
+        <div
+          class="item item--active"
+          data-testid="list-item"
+        >
+          <p
+            class="text"
+          >
+            Veriff supports presented document
+          </p>
+          <div>
+            <button
+              class="leftButton activeButton"
+            >
+              Yes
+            </button>
+            <button
+              class="rightButton"
+            >
+              No
+            </button>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-testid="list-item"
+        >
+          <p
+            class="text"
+          >
+            Face on the picture matches face on the document
+          </p>
+          <div>
+            <button
+              class="leftButton"
+            >
+              Yes
+            </button>
+            <button
+              class="rightButton"
+            >
+              No
+            </button>
+          </div>
+        </div>
+      </form>
+      <button
+        class="button"
+        disabled=""
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App renders App correctly when user navigates with keyboard 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <div
+      class="wrapper"
+    >
+      <form>
+        <div
+          class="item item--active"
+          data-testid="list-item"
+        >
+          <p
+            class="text"
+          >
+            Veriff supports presented document
+          </p>
+          <div>
+            <button
+              class="leftButton activeButton"
+            >
+              Yes
+            </button>
+            <button
+              class="rightButton"
+            >
+              No
+            </button>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-testid="list-item"
+        >
+          <p
+            class="text"
+          >
+            Face on the picture matches face on the document
+          </p>
+          <div>
+            <button
+              class="leftButton"
+            >
+              Yes
+            </button>
+            <button
+              class="rightButton"
+            >
+              No
+            </button>
+          </div>
+        </div>
+      </form>
+      <button
+        class="button"
+        disabled=""
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App renders Error view when sumbit fails 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <div
+      class="container"
+    >
+      <h2>
+        Whoops! Something went wrong...
+      </h2>
+      <div>
+        Please 
+        <button>
+          try again
+        </button>
+         or contact our 
+        <a
+          href="https://support.veriff.com/en"
+        >
+          support.
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App renders Error view when unable to fetch checks 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <div
+      class="container"
+    >
+      <h2>
+        Whoops! Something went wrong...
+      </h2>
+      <div>
+        Please 
+        <button>
+          try again
+        </button>
+         or contact our 
+        <a
+          href="https://support.veriff.com/en"
+        >
+          support.
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App sends submit data when user clicks Submit button and renders success view 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <div
+      class="container"
+    >
+      <h2>
+        Great success!
+      </h2>
+      <p>
+        Your data was submitted successfully.
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error renders Error view correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2>
+      Whoops! Something went wrong...
+    </h2>
+    <div>
+      Please 
+      <button>
+        try again
+      </button>
+       or contact our 
+      <a
+        href="https://support.veriff.com/en"
+      >
+        support.
+      </a>
+    </div>
+  </div>
+</div>
+`;

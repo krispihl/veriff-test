@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #004e5f;
+  --highlight-color: #def7f7;
+  --cold-gray: #e6ebf4;
+  --warm-gray: #bdc0cf;
+  --primary-white: #fff;
+}
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  min-height: 500px;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #e6ebf4;
+  padding: 20px;
+}
+
+.loadingState {
+  color: #bdc0cf;
+  font-size: 24px;
+}
+
+/* Default CSS override */
+button {
+  border: 0;
+  padding: 0;
+}

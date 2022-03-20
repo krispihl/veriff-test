@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem renders ListItem component correctly 1`] = `
+<div>
+  <div
+    class="item"
+    data-testid="list-item"
+  >
+    <p
+      class="text"
+    >
+      Face is clearly visible
+    </p>
+    <div>
+      <button
+        class="leftButton"
+      >
+        Yes
+      </button>
+      <button
+        class="rightButton"
+      >
+        No
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListItem renders active ListItem correctly 1`] = `
+<div>
+  <div
+    class="item item--active"
+    data-testid="list-item"
+  >
+    <p
+      class="text"
+    >
+      Face is clearly visible
+    </p>
+    <div>
+      <button
+        class="leftButton"
+      >
+        Yes
+      </button>
+      <button
+        class="rightButton"
+      >
+        No
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListItem renders disabled ListItem correctly 1`] = `
+<div>
+  <div
+    class="item item--disabled"
+    data-testid="list-item"
+  >
+    <p
+      class="text"
+    >
+      Face is clearly visible
+    </p>
+    <div>
+      <button
+        class="leftButton disabled"
+      >
+        Yes
+      </button>
+      <button
+        class="rightButton disabled"
+      >
+        No
+      </button>
+    </div>
+  </div>
+</div>
+`;
